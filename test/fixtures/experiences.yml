@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  [designation: MyString
+  company: MyString
+  fromDt: 2016-05-21
+  toDt: 2016-05-21
+  description: 
+
+two:
+  [designation: MyString
+  company: MyString
+  fromDt: 2016-05-21
+  toDt: 2016-05-21
+  description: 
