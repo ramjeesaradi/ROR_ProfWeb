@@ -1,0 +1,30 @@
+<html>
+<%= render "head" %>
+<body>
+<%= render "menu" %>
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h1 class="text-info">Hello</h1>
+        <hr>
+        <h1 class="text-center text-primary">I'm Ramji(Ramanuja Rao Kotaprolu)</h1>
+        <hr>
+        <p class="text-justify text-muted">
+          <br><%= @introL1 %>
+          <br>
+          <br><%= @introL2 %>
+          <br>
+          <% @traits.each do |trait| %>
+              <br> <%= trait.id %>. <%= trait.trait %>
+          <% end %>.&nbsp;</p>
+      </div>
+      <div class="col-md-3">
+        <img src="/assets/pic.jpeg" class="center-block img-responsive img-rounded">
+      </div>
+    </div>
+  </div>
+</div>
+<%= render "footer" %>
+</body>
+</html>
